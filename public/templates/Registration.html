@@ -1,0 +1,35 @@
+<div id=rgform>
+ <div class="container">
+<h2 style="color:Blue;margin-left:30px;">Registration form</h2>
+
+  <div class="col-md-5">
+      <label for="Name">Name:</label>
+      <input type="text" ng-model="user.name" class="form-control col-md-3" id="Name" placeholder="Enter name" >
+    </div>
+    
+    <form role="form">
+
+    <div class="col-md-5">
+      <label for="email">Email:</label>
+      <input type="email" ng-model="user.email" class="form-control col-md-3" id="email" placeholder="Enter email">
+    </div>
+    <br>
+    
+   <div class="col-md-5">
+      <label for="pwd">Password:</label>
+      <input type="password" ng-model="user.password" class="form-control col-md-3" id="pwd" placeholder="Enter password">
+    </div>
+    
+    <div class="col-md-5">
+      <label for="pwd">Re-Enter Password:</label>
+      <input type="password" ng-model="user.repassword" class="form-control col-md-3" id="pwd" placeholder="Re-Enter password">
+    </div><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <button type="submit" class="btn btn-default" ng-click="submit(user)">Submit</button>
+</form>
+   </div>
+</div>

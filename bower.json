@@ -1,0 +1,23 @@
+{
+  "name": "timesheet",
+  "description": "employee timesheet web application",
+  "main": "index.js",
+  "author": "navya,jagadeesh,sruthi,haritha,gopal",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.2",
+    "angular-route": "^1.5.2",
+    "bootstrap": "^3.3.6"
+  }
+}

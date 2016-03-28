@@ -1,0 +1,1 @@
+module.exports = { url:'mongodb://Navya17:Navya17@ds015869.mlab.com:15869/navya'}

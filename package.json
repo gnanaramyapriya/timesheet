@@ -13,6 +13,7 @@
     "body-parser": "^1.15.0",
     "construx": "^1.0.0",
     "construx-copier": "^1.0.0",
+    "dateformat": "^1.0.12",
     "eslint": "^1.10.3",
     "express": "^4.12.2",
     "kraken-js": "^1.0.3",
